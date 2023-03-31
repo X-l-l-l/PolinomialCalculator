@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="580.0" maxWidth="712.0" minHeight="551.0" minWidth="712.0" prefHeight="580.0" prefWidth="712.0" spacing="20.0" style="-fx-background-color: #222831;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.temanr1.Controller">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <Pane prefHeight="581.0" prefWidth="890.0" style="-fx-background-radius: 30; -fx-background-color: #00ADB5;">
+      <Group layoutX="24.0" layoutY="268.0" style="-fx-background-radius: 30;">
+         <Button fx:id="b9" layoutX="130.0" mnemonicParsing="false" onAction="#bt9" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #393E46; -fx-background-radius: 30;" text="9" textAlignment="CENTER" textFill="#e8fef8">
+            <font>
+               <Font name="Barlow Condensed Bold" size="20.0" />
+            </font>
+            <effect>
+               <InnerShadow choke="0.2" height="38.59" radius="18.795" width="38.59">
+                  <color>
+                     <Color red="0.13333334028720856" green="0.1568627506494522" blue="0.1921568661928177" />
+                  </color>
+               </InnerShadow>
+            </effect></Button>
+         <Button fx:id="b6" layoutX="130.0" layoutY="65.0" mnemonicParsing="false" onAction="#bt6" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #393E46; -fx-background-radius: 30;" text="6" textAlignment="CENTER" textFill="#e8fef8">
+            <font>
+               <Font name="Barlow Condensed Bold" size="20.0" />
+            </font>
+            <effect>
+               <InnerShadow choke="0.2" height="38.59" radius="18.795" width="38.59">
+                  <color>
+                     <Color red="0.13333334028720856" green="0.1568627506494522" blue="0.1921568661928177" />
+                  </color>
+               </InnerShadow>
+            </effect></Button>
+         <Button fx:id="b3" layoutX="130.0" layoutY="130.0" mnemonicParsing="false" onAction="#bt3" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #393E46; -fx-background-radius: 30;" text="3" textAlignment="CENTER" textFill="#e8fef8">
+            <font>
+               <Font name="Barlow Condensed Bold" size="20.0" />
+            </font>
+            <effect>
+               <InnerShadow choke="0.2" height="38.59" radius="18.795" width="38.59">
+                  <color>
+                     <Color red="0.13333334028720856" green="0.1568627506494522" blue="0.1921568661928177" />
+                  </color>
+               </InnerShadow>
+            </effect></Button>
+         <Button fx:id="b8" layoutX="65.0" mnemonicParsing="false" onAction="#bt8" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #393E46; -fx-background-radius: 30;" text="8" textAlignment="CENTER" textFill="#e8fef8">
+            <font>
+               <Font name="Barlow Condensed Bold" size="20.0" />
+            </font>
+            <effect>
+               <InnerShadow choke="0.2" height="38.59" radius="18.795" width="38.59">
+                  <color>
+                     <Color red="0.13333334028720856" green="0.1568627506494522" blue="0.1921568661928177" />
+                  </color>
+               </InnerShadow>
+            </effect></Button>
+         <Button fx:id="b5" layoutX="65.0" layoutY="65.0" mnemonicParsing="false" onAction="#bt5" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #393E46; -fx-background-radius: 30;" text="5" textAlignment="CENTER" textFill="#e8fef8">
+            <font>
+               <Font name="Barlow Condensed Bold" size="20.0" />
+            </font>
+            <effect>
+               <InnerShadow choke="0.2" height="38.59" radius="18.795" width="38.59">
+                  <color>
+                     <Color red="0.13333334028720856" green="0.1568627506494522" blue="0.1921568661928177" />
+                  </color>
+               </InnerShadow>
+            </effect></Button>
+         <Button fx:id="b2" layoutX="65.0" layoutY="130.0" mnemonicParsing="false" onAction="#bt2" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #393E46; -fx-background-radius: 30;" text="2" textAlignment="CENTER" textFill="#e8fef8">
+            <font>
+               <Font name="Barlow Condensed Bold" size="20.0" />
+            </font>
+            <effect>
+               <InnerShadow choke="0.2" height="38.59" radius="18.795" width="38.59">
+                  <color>
+                     <Color red="0.13333334028720856" green="0.1568627506494522" blue="0.1921568661928177" />
+                  </color>
+               </InnerShadow>
+            </effect></Button>
+         <Button fx:id="b7" mnemonicParsing="false" onAction="#bt7" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #393E46; -fx-background-radius: 30;" text="7" textAlignment="CENTER" textFill="#e8fef8">
+            <font>
+               <Font name="Barlow Condensed Bold" size="20.0" />
+            </font>
+            <effect>
+               <InnerShadow choke="0.2" height="38.59" radius="18.795" width="38.59">
+                  <color>
+                     <Color red="0.13333334028720856" green="0.1568627506494522" blue="0.1921568661928177" />
+                  </color>
+               </InnerShadow>
+            </effect></Button>
+         <Button fx:id="b4" layoutY="65.0" mnemonicParsing="false" onAction="#bt4" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #393E46; -fx-background-radius: 30;" text="4" textAlignment="CENTER" textFill="#e8fef8">
+            <font>
+               <Font name="Barlow Condensed Bold" size="20.0" />
+            </font>
+            <effect>
+               <InnerShadow choke="0.2" height="38.59" radius="18.795" width="38.59">
+                  <color>
+                     <Color red="0.13333334028720856" green="0.1568627506494522" blue="0.1921568661928177" />
+                  </color>
+               </InnerShadow>
+            </effect></Button>
+         <Button fx:id="b1" layoutY="130.0" mnemonicParsing="false" onAction="#bt1" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #393E46; -fx-background-radius: 30;" text="1" textAlignment="CENTER" textFill="#e8fef8">
+            <font>
+               <Font name="Barlow Condensed Bold" size="20.0" />
+            </font>
+            <effect>
+               <InnerShadow choke="0.2" height="38.59" radius="18.795" width="38.59">
+                  <color>
+                     <Color red="0.13333334028720856" green="0.1568627506494522" blue="0.1921568661928177" />
+                  </color>
+               </InnerShadow>
+            </effect></Button>
+         <Button fx:id="b0" layoutY="194.0" mnemonicParsing="false" onAction="#bt0" prefHeight="60.0" prefWidth="125.0" style="-fx-background-color: #393E46; -fx-background-radius: 30;" text="0" textAlignment="CENTER" textFill="#e8fef8">
+            <font>
+               <Font name="Barlow Condensed Bold" size="20.0" />
+            </font>
+            <effect>
+               <InnerShadow choke="0.2" height="38.59" radius="18.795" width="38.59">
+                  <color>
+                     <Color red="0.13333334028720856" green="0.1568627506494522" blue="0.1921568661928177" />
+                  </color>
+               </InnerShadow>
+            </effect></Button>
+         <Button fx:id="bx" layoutX="130.0" layoutY="194.0" mnemonicParsing="false" onAction="#btx" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #393E46; -fx-background-radius: 30;" text="x" textAlignment="CENTER" textFill="#e8fef8">
+            <font>
+               <Font name="Barlow Condensed Bold" size="20.0" />
+            </font>
+            <effect>
+               <InnerShadow choke="0.2" height="38.59" radius="18.795" width="38.59">
+                  <color>
+                     <Color red="0.13333334028720856" green="0.1568627506494522" blue="0.1921568661928177" />
+                  </color>
+               </InnerShadow>
+            </effect></Button>
+      </Group>
+      <Group layoutX="24.0" layoutY="200.0" style="-fx-background-radius: 30;">
+         <Button fx:id="bpow" layoutX="130.0" mnemonicParsing="false" onAction="#btpow" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #393E46; -fx-background-radius: 30;" text="^" textFill="#e8fef8">
+            <font>
+               <Font name="Barlow Condensed Bold" size="20.0" />
+            </font>
+            <effect>
+               <InnerShadow choke="0.2" height="38.59" radius="18.795" width="38.59">
+                  <color>
+                     <Color red="0.13333334028720856" green="0.1568627506494522" blue="0.1921568661928177" />
+                  </color>
+               </InnerShadow>
+            </effect></Button>
+         <Button fx:id="bminus" layoutX="65.0" mnemonicParsing="false" onAction="#btminus" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #393E46; -fx-background-radius: 30;" text="-" textFill="#e8fef8">
+            <font>
+               <Font name="Barlow Condensed Bold" size="20.0" />
+            </font>
+            <effect>
+               <InnerShadow choke="0.2" height="38.59" radius="18.795" width="38.59">
+                  <color>
+                     <Color red="0.13333334028720856" green="0.1568627506494522" blue="0.1921568661928177" />
+                  </color>
+               </InnerShadow>
+            </effect></Button>
+         <Button fx:id="bplus" mnemonicParsing="false" onAction="#btplus" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #393E46; -fx-background-radius: 30;" text="+" textFill="#e8fef8">
+            <font>
+               <Font name="Barlow Condensed Bold" size="20.0" />
+            </font>
+            <effect>
+               <InnerShadow choke="0.2" height="38.59" radius="18.795" width="38.59">
+                  <color>
+                     <Color red="0.13333334028720856" green="0.1568627506494522" blue="0.1921568661928177" />
+                  </color>
+               </InnerShadow>
+            </effect></Button>
+      </Group>
+      <Group layoutX="329.0" layoutY="198.0" style="-fx-background-radius: 30;">
+         <Button fx:id="bint" layoutX="219.0" mnemonicParsing="false" onAction="#btint" prefHeight="60.0" prefWidth="100.0" style="-fx-background-color: #393E46; -fx-background-radius: 30;" text="Integral" textFill="#e8fef8">
+            <font>
+               <Font name="Barlow Condensed Bold" size="18.0" />
+            </font>
+            <effect>
+               <InnerShadow choke="0.2" height="38.59" radius="18.795" width="38.59">
+                  <color>
+                     <Color red="0.13333334028720856" green="0.1568627506494522" blue="0.1921568661928177" />
+                  </color>
+               </InnerShadow>
+            </effect></Button>
+         <Button fx:id="bder" layoutX="219.0" layoutY="63.0" mnemonicParsing="false" onAction="#btder" prefHeight="60.0" prefWidth="100.0" style="-fx-background-color: #393E46; -fx-background-radius: 30;" text="Derivative" textFill="#e8fef8">
+            <font>
+               <Font name="Barlow Condensed Bold" size="18.0" />
+            </font>
+            <effect>
+               <InnerShadow choke="0.2" height="38.59" radius="18.795" width="38.59">
+                  <color>
+                     <Color red="0.13333334028720856" green="0.1568627506494522" blue="0.1921568661928177" />
+                  </color>
+               </InnerShadow>
+            </effect></Button>
+         <Button fx:id="bmul" layoutX="110.0" mnemonicParsing="false" onAction="#btmul" prefHeight="60.0" prefWidth="100.0" style="-fx-background-color: #393E46; -fx-background-radius: 30;" text="Multiply" textFill="#e8fef8">
+            <font>
+               <Font name="Barlow Condensed Bold" size="18.0" />
+            </font>
+            <effect>
+               <InnerShadow choke="0.2" height="38.59" radius="18.795" width="38.59">
+                  <color>
+                     <Color red="0.13333334028720856" green="0.1568627506494522" blue="0.1921568661928177" />
+                  </color>
+               </InnerShadow>
+            </effect></Button>
+         <Button fx:id="bdiv" layoutX="110.0" layoutY="63.0" mnemonicParsing="false" onAction="#btdiv" prefHeight="60.0" prefWidth="100.0" style="-fx-background-color: #393E46; -fx-background-radius: 30;" text="Divide" textFill="#e8fef8">
+            <font>
+               <Font name="Barlow Condensed Bold" size="18.0" />
+            </font>
+            <effect>
+               <InnerShadow choke="0.2" height="38.59" radius="18.795" width="38.59">
+                  <color>
+                     <Color red="0.13333334028720856" green="0.1568627506494522" blue="0.1921568661928177" />
+                  </color>
+               </InnerShadow>
+            </effect></Button>
+         <Button fx:id="badd" layoutY="1.0" mnemonicParsing="false" onAction="#btadd" prefHeight="60.0" prefWidth="100.0" style="-fx-background-color: #393E46; -fx-background-radius: 30;" text="Add" textFill="#e8fef8">
+            <font>
+               <Font name="Barlow Condensed Bold" size="18.0" />
+            </font>
+            <effect>
+               <InnerShadow choke="0.2" height="38.59" radius="18.795" width="38.59">
+                  <color>
+                     <Color red="0.13333334028720856" green="0.1568627506494522" blue="0.1921568661928177" />
+                  </color>
+               </InnerShadow>
+            </effect></Button>
+         <Button fx:id="bsub" layoutY="65.0" mnemonicParsing="false" onAction="#btsub" prefHeight="60.0" prefWidth="100.0" style="-fx-background-color: #393E46; -fx-background-radius: 30;" text="Substract" textFill="#e8fef8">
+            <font>
+               <Font name="Barlow Condensed Bold" size="18.0" />
+            </font>
+            <effect>
+               <InnerShadow choke="0.2" height="38.59" radius="18.795" width="38.59">
+                  <color>
+                     <Color red="0.13333334028720856" green="0.1568627506494522" blue="0.1921568661928177" />
+                  </color>
+               </InnerShadow>
+            </effect></Button>
+      </Group>
+      <TextArea fx:id="out" editable="false" layoutX="329.0" layoutY="338.0" prefHeight="173.0" prefWidth="319.0" promptText="Result" style="-fx-background-color: #393E46;" />
+      <TextField fx:id="pol1" layoutX="24.0" layoutY="57.0" onMouseClicked="#changePol1" prefHeight="25.0" prefWidth="623.0" promptText="First polynomial" style="-fx-background-color: #EEEEEE; -fx-background-radius: 30;" />
+      <TextField fx:id="pol2" layoutX="25.0" layoutY="108.0" onMouseClicked="#changePol2" prefHeight="25.0" prefWidth="623.0" promptText="Second polynomial" style="-fx-background-color: #EEEEEE; -fx-background-radius: 30;" />
+      <Label layoutX="329.0" layoutY="166.0" style="-fx-background-radius: 30;" text="Operations" textFill="#222831">
+         <font>
+            <Font name="Barlow Condensed Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="25.0" layoutY="22.0" style="-fx-background-radius: 30;" text="Polynomials" textFill="#222831">
+         <font>
+            <Font name="Barlow Condensed Bold" size="20.0" />
+         </font></Label>
+      <Button fx:id="bdel" layoutX="220.0" layoutY="200.0" minWidth="25.0" mnemonicParsing="false" onAction="#btdel" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #393E46; -fx-background-radius: 30;" text="&lt;" textFill="#e8fef8">
+         <font>
+            <Font name="Barlow Condensed Bold" size="20.0" />
+         </font>
+         <effect>
+            <InnerShadow choke="0.2" height="38.59" radius="18.795" width="38.59">
+               <color>
+                  <Color red="0.13333334028720856" green="0.1568627506494522" blue="0.1921568661928177" />
+               </color>
+            </InnerShadow>
+         </effect></Button>
+      <Button fx:id="bclear" layoutX="594.0" layoutY="461.0" minWidth="53.0" mnemonicParsing="false" onAction="#btclear" prefHeight="50.0" prefWidth="53.0" style="-fx-background-color: #393E46;" text="Clear" textFill="#e8fef8">
+         <font>
+            <Font name="Barlow Condensed Bold" size="16.0" />
+         </font>
+         <effect>
+            <InnerShadow choke="0.2" height="38.59" radius="18.795" width="38.59">
+               <color>
+                  <Color red="0.13333334028720856" green="0.1568627506494522" blue="0.1921568661928177" />
+               </color>
+            </InnerShadow>
+         </effect></Button>
+   </Pane>
+</VBox>
